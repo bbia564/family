@@ -55,12 +55,12 @@ dependencies:
   flutter_launcher_icons: ^0.13.1
 
 flutter_launcher_icons:
-  image_path: "assets/1805start.png"
+  image_path: "assets/images/logo2.png"
   android: true
   ios: true
   web:
     generate: true
-    image_path: "assets/1805start.png"
+    image_path: "assets/images/logo2.png"
     background_color: "#FFFFFF"
     theme_color: "#FFFFFF"
 
