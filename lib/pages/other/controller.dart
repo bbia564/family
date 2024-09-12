@@ -41,7 +41,7 @@ class OtherController extends GetxController {
               ClipRRect(
                   borderRadius: const BorderRadius.all(Radius.circular(10)),
                   child: Image.asset(
-                    "assets/images/ic_launcher.png",
+                    "assets/images/logo2.png",
                     width: 70,
                   )),
               10.verticalSpace,
@@ -51,10 +51,10 @@ class OtherController extends GetxController {
               const Expanded(
                 child: Markdown(
                   data: """
-FamilyFinance: Your Ultimate Personal and Family Accounting App
+Pictot: Your Ultimate Personal and Family Accounting App
 Introduction
 
-Welcome to FamilyFinance, the comprehensive solution for managing both your personal and family finances. Whether you're keeping track of individual expenses or managing household budgets, FamilyFinance offers a seamless and intuitive experience to help you stay on top of your finances.
+Welcome to Pictot, the comprehensive solution for managing both your personal and family finances. Whether you're keeping track of individual expenses or managing household budgets, Pictot offers a seamless and intuitive experience to help you stay on top of your finances.
 
 Key Features
 
@@ -62,23 +62,23 @@ Add Family and Personal Accounts: Easily switch between managing family and pers
 
 Account Reports: Generate detailed reports to understand your spending habits, track savings, and make informed financial decisions. Our clear and concise reports help you stay on top of your finances.
 
-Total Spend and Transactions: View your total expenditure and transaction history at a glance. FamilyFinance provides an overview of your financial activities, ensuring you are always aware of where your money is going.
+Total Spend and Transactions: View your total expenditure and transaction history at a glance. Pictot provides an overview of your financial activities, ensuring you are always aware of where your money is going.
 
 User-Friendly Interface: Enjoy a clean, easy-to-use interface that makes financial management a breeze. Our app is designed to be intuitive, ensuring you spend less time managing finances and more time enjoying life.
 
-Secure and Private: Your financial data is secure with us. FamilyFinance employs top-notch security measures to ensure your information is protected and private.
+Secure and Private: Your financial data is secure with us. Pictot employs top-notch security measures to ensure your information is protected and private.
 
-Why Choose FamilyFinance?
+Why Choose Pictot?
 
 Comprehensive Management: Handle both personal and family finances in one place, making it easier to manage and track all your financial activities.
 Insightful Reports: Gain valuable insights into your spending patterns and financial health with our detailed reports.
 Ease of Use: Our intuitive design makes financial management accessible to everyone, regardless of their financial expertise.
-Security First: Rest easy knowing your data is safe with FamilyFinance's robust security measures.
+Security First: Rest easy knowing your data is safe with Pictot's robust security measures.
 Get Started Today
 
-Join the FamilyFinance community and take control of your financial future. Download FamilyFinance now and start managing your personal and family finances with ease.
+Join the Pictot community and take control of your financial future. Download Pictot now and start managing your personal and family finances with ease.
 
-FamilyFinance - Simplifying Financial Management for You and Your Family.
+Pictot - Simplifying Financial Management for You and Your Family.
           """,
                 ),
               ),

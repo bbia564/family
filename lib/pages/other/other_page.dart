@@ -54,31 +54,6 @@ class OtherPage extends GetView<OtherController> {
                 height: 1,
               ),
               ListTile(
-                leading: const Padding(
-                  padding: EdgeInsets.only(left: 1),
-                  child: Icon(
-                    Icons.privacy_tip,
-                    color: AppColors.themeColor,
-                    size: 15,
-                  ),
-                ),
-                minLeadingWidth: 18,
-                title: Text("Privacy",
-                    style: TextStyle(
-                        fontSize: 12.sp,
-                        color: const Color(0xFF0F0F0F),
-                        fontWeight: FontWeight.w600)),
-                trailing: const Icon(Icons.arrow_forward_ios, color: Color(0xFFAAAAAA), size: 14),
-                onTap: () {
-                  controller.onPrivacy(context);
-                },
-              ),
-              const Divider(
-                indent: 16,
-                endIndent: 20,
-                height: 1,
-              ),
-              ListTile(
                 leading: Image.asset(
                   "assets/images/ic_privacy.png",
                   width: 18,
